@@ -1,0 +1,15 @@
+E:\XXPersonal Work\Law_School\LawSchool.Service\bin\Debug\net6.0\LawSchool.Service.deps.json
+E:\XXPersonal Work\Law_School\LawSchool.Service\bin\Debug\net6.0\LawSchool.Service.dll
+E:\XXPersonal Work\Law_School\LawSchool.Service\bin\Debug\net6.0\ref\LawSchool.Service.dll
+E:\XXPersonal Work\Law_School\LawSchool.Service\bin\Debug\net6.0\LawSchool.Service.pdb
+E:\XXPersonal Work\Law_School\LawSchool.Service\bin\Debug\net6.0\LawSchool.DATA.dll
+E:\XXPersonal Work\Law_School\LawSchool.Service\bin\Debug\net6.0\LawSchool.DATA.pdb
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.csproj.AssemblyReference.cache
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.AssemblyInfoInputs.cache
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.AssemblyInfo.cs
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.csproj.CoreCompileInputs.cache
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.csproj.CopyComplete
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.dll
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\ref\LawSchool.Service.dll
+E:\XXPersonal Work\Law_School\LawSchool.Service\obj\Debug\net6.0\LawSchool.Service.pdb

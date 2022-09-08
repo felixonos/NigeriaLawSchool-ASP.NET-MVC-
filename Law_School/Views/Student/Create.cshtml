@@ -1,0 +1,129 @@
+﻿@using LawSchool.Data.Data.Entities
+@model Student
+
+@{
+    ViewData["Title"] = "Add New Student";
+}
+
+@section Styles{
+         <link href="~/assets/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+         <link href="~/assets/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+
+    }
+
+    @section Scripts{
+      <!-- iCheck -->
+    <script src="~/assets/js/plugins/iCheck/icheck.min.js"></script>
+    <script src="~/assets/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('.i-checks').iCheck({
+                    checkboxClass: 'icheckbox_square-green',
+                    radioClass: 'iradio_square-green',
+                });
+
+               var mem = $('#divBirthDate .input-group.date').datepicker({
+                    todayBtn: "linked",
+                    keyboardNavigation: false,
+                    forceParse: false,
+                    calendarWeeks: true,
+                    autoclose: true,
+                    format: "dd/mm/yyyy"
+                });
+            });
+        </script>
+    
+}
+
+  <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>@ViewData["Title"]</h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a asp-action="Index" asp-controller="Student">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a asp-action="Index" asp-controller="Student">Students</a>
+                        </li>
+                    </ol> 
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+           
+                <div class="col-lg-7">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>@ViewData["Title"]</h5>
+                            <div class="ibox-tools">
+                               
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <form asp-action="Create" asp-controller="Student">
+                                <div class="form-group row"><label class="col-lg-2 col-form-label">Full Name</label>
+                                    <div class="col-lg-10"><input asp-for="Name" placeholder="Enter Full name .." class="form-control"> 
+                                        <span asp-validation-for="Name" class="form-text text-danger m-b-none"></span>
+                                    </div>
+                                </div>
+
+                                 <div class="form-group row"><label class="col-lg-2 col-form-label">Gender</label>
+                                    <div class="col-lg-10">
+                                        <select asp-for="Gender" class="form-control m-b">
+                                            <option value="0">Male</option>
+                                            <option value="1">Female</option>
+                                            <option value="2">Others</option>
+                                        </select>
+                                        <span asp-validation-for="Gender" class="form-text text-danger m-b-none"></span>
+                                    </div>
+                                </div>
+
+
+                                 <div class="form-group row"><label class="col-lg-2 col-form-label">Email</label>
+                                    <div class="col-lg-10"><input asp-for="Email" placeholder="Enter email .." class="form-control"> 
+                                        <span asp-validation-for="Email" class="form-text text-danger m-b-none"></span>
+                                    </div>
+                                </div>
+
+                               
+                                  <div class="form-group row"><label class="col-lg-2 col-form-label">School Attend</label>
+                                    <div class="col-lg-10"><input asp-for="SchoolAttend" placeholder="Enter address .." class="form-control"> 
+                                        <span asp-validation-for="SchoolAttend" class="form-text text-danger m-b-none"></span>
+                                    </div>
+                                </div>
+
+                               
+
+                                <div class="form-group  row" id="divBirthDate">
+                                <label class="col-lg-2 font-normal col-form-label">Graduation Year</label>
+                                <div class="col-lg-10 input-group date">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                    <input type="date" class="form-control" asp-for="GraduationYear">
+                                      <span asp-validation-for="GraduationYear" class="form-text text-danger m-b-none"></span>
+                                </div>
+                            </div>
+
+                          
+                                <div>
+                                        <label> <input type="checkbox" class="i-checks"> Is active </label>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-lg-offset-2 col-lg-10">
+                                        <button class="btn btn-sm btn-dark" type="submit">Add Student</button>
+                                        <a asp-action="Index" asp-controller="Student" class="btn btn-sm btn-danger">Cancel</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+
+

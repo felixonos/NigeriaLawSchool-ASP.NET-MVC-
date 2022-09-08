@@ -1,0 +1,14 @@
+E:\XXPersonal Work\Law_School\LawSchool.DATA\bin\Debug\net6.0\LawSchool.DATA.deps.json
+E:\XXPersonal Work\Law_School\LawSchool.DATA\bin\Debug\net6.0\LawSchool.DATA.runtimeconfig.json
+E:\XXPersonal Work\Law_School\LawSchool.DATA\bin\Debug\net6.0\LawSchool.DATA.dll
+E:\XXPersonal Work\Law_School\LawSchool.DATA\bin\Debug\net6.0\ref\LawSchool.DATA.dll
+E:\XXPersonal Work\Law_School\LawSchool.DATA\bin\Debug\net6.0\LawSchool.DATA.pdb
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.csproj.AssemblyReference.cache
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.GeneratedMSBuildEditorConfig.editorconfig
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.AssemblyInfoInputs.cache
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.AssemblyInfo.cs
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.csproj.CoreCompileInputs.cache
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.dll
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\ref\LawSchool.DATA.dll
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.pdb
+E:\XXPersonal Work\Law_School\LawSchool.DATA\obj\Debug\net6.0\LawSchool.DATA.genruntimeconfig.cache

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cd354102-f32a-42e1-b838-c75a8b8741e2": {
+      "ProjectGuid": "cd354102-f32a-42e1-b838-c75a8b8741e2",
+      "DisplayName": "Law_School",
+      "ColorIndex": 0
+    },
+    "fbe065ff-ec3d-4c19-a006-ed8253eafcad": {
+      "ProjectGuid": "fbe065ff-ec3d-4c19-a006-ed8253eafcad",
+      "DisplayName": "LawSchool.Data",
+      "ColorIndex": 1
+    },
+    "f1e1af92-4127-42a9-98f8-933e3be75fed": {
+      "ProjectGuid": "f1e1af92-4127-42a9-98f8-933e3be75fed",
+      "DisplayName": "LawSchool.Service",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
